@@ -1,0 +1,13 @@
+body{
+    font-size: 24px;
+background-color: darksalmon;
+}
+
+#inputBox,#submitButton{
+    font-size: 24px;;
+}
+
+input[type="radio"]{
+    transform: scale(2); 
+
+}
