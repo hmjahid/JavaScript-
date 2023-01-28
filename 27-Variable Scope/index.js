@@ -12,7 +12,7 @@ for(let i = 1; i <= 3; i += 1){
 doSomething();
 
 function doSomething(){
-    for(let j = 1; j <= 3; j += 1){
+    for(var j = 1; j <= 3; j += 1){
         
         console.log(j);
 }
