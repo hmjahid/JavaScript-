@@ -4,5 +4,5 @@ console.log("END-1");
 
 
 console.log("START-2");
-setInterval(() => console.log("This is asynchronous!"), 1000);
+setTimeout(() => console.log("This is asynchronous!"), 1000);
 console.log("END-2");
