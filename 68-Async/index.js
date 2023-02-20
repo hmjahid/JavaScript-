@@ -1,0 +1,37 @@
+
+async function loadFile(){
+
+    let fileLoaded = true;
+
+    if(fileLoaded){
+        return "File loaded";
+    }
+    else{
+        return "File not loaded";
+    }
+};
+
+loadFile().then(value => console.log(value))
+       .catch(error => console.log(error));
+
+
+/*
+
+// Without async
+
+function loadFile(){
+
+    let fileLoaded = true;
+    
+    if(fileLoaded){
+        return Promise.resolve("File loaded");
+    }
+    else{
+        return Promise.reject("File not loaded");
+    }
+};
+    
+loadFile().then(value => console.log(value))
+          .catch(error => console.log(error));
+
+*/
