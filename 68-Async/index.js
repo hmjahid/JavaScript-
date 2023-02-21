@@ -7,7 +7,7 @@ async function loadFile(){
         return "File loaded";
     }
     else{
-        return "File not loaded";
+        throw "File not loaded";
     }
 };
 
